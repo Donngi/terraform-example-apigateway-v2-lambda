@@ -26,6 +26,7 @@ resource "aws_lambda_function" "sample" {
 
   timeout                        = 29
   reserved_concurrent_executions = 50
+  publish                        = true
 }
 
 resource "aws_lambda_permission" "sample" {
