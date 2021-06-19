@@ -11,7 +11,6 @@ resource "aws_iam_role" "lambda_sample" {
             "Service" : "lambda.amazonaws.com"
           },
           "Effect" : "Allow",
-          "Sid" : ""
         }
       ]
     }
